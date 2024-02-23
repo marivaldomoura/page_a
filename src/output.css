@@ -586,10 +586,6 @@ video {
   position: relative;
 }
 
-.-left-\[300px\] {
-  left: -300px;
-}
-
 .-right-full {
   right: -100%;
 }
@@ -616,6 +612,14 @@ video {
 
 .top-8 {
   top: 2rem;
+}
+
+.-left-\[300px\] {
+  left: -300px;
+}
+
+.left-0 {
+  left: 0px;
 }
 
 .z-20 {
@@ -702,10 +706,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[480px\] {
-  height: 480px;
 }
 
 .w-24 {
@@ -1195,10 +1195,6 @@ p {
 
   .lg\:max-w-full {
     max-width: 100%;
-  }
-
-  .lg\:max-w-\[718px\] {
-    max-width: 718px;
   }
 
   .lg\:flex-row {
