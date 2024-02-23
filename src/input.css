@@ -4,7 +4,7 @@
 
 
 body{
-    @apply font-primary bg-primary scroll-smooth transition-all duration-300;
+    @apply font-primary  bg-gradient-to-tr from-blue-800 to-primary scroll-smooth transition-all duration-300;
 }
 h1{
     @apply text-[48px] leading-none xl:text-[64px] transition-all duration-300 text-white;
@@ -31,4 +31,7 @@ a{
 }
 p{
     @apply text-white text-[13px] font-light opacity-60;
+}
+.grad{
+    @apply bg-gradient-to-r from-blue-700 to-secondary;
 }

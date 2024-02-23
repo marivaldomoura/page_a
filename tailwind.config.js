@@ -5,7 +5,8 @@ module.exports = {
     container:{
       padding:{
         DEFAULT:'15px',
-      }
+        
+      },
     },
     screens:{
       sm:'340px',
@@ -18,8 +19,10 @@ module.exports = {
         primary:'#0a1650',
         hover:'#11d5e5',
         secondary:'#001a5f',
+        terciary:'#074988',
         accent:'#0bd4f0',
-        iconcolor:'#3e63a7'
+        iconcolor:'#3e63a7',
+        shadowM:'0 25px 25px #000'
       },
       backgroundImage:{
         hero:'url(../../assets/hero.png)',
@@ -27,6 +30,7 @@ module.exports = {
         logo:'url(../../assets/logo.png)',
         
       },
+      
       fontFamily:{
         primary:'Poppins'
       },
