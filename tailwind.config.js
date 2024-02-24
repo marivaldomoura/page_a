@@ -25,7 +25,7 @@ module.exports = {
         shadowM:'0 25px 25px #000'
       },
       backgroundImage:{
-        hero:'url(../../assets/hero.png)',
+        
         section:'url(../../assets/section.png)',
         logo:'url(../../assets/logo.png)',
         

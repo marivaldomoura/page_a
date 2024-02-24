@@ -1,0 +1,15 @@
+.about{
+    display: hidden;
+}
+.scal{
+    display: hidden;
+}
+.scal2{
+    display: hidden;
+}
+
+.bg-hero{
+    background-image:url('../../assets/hero.png');
+    
+}
+

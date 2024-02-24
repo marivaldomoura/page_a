@@ -1,3 +1,16 @@
+
+// config scrollreveal ------------------>>>>>>>>
+
+ScrollReveal({ reset: true });
+ScrollReveal().reveal('.about', {rotate: { x:0, y:90,z:0, }, duration:3000});
+
+ScrollReveal().reveal('.scal', {scale: 1/3, duration:3000});
+
+ScrollReveal().reveal('.scal2', {distance:'200px', duration:3000});
+
+
+// config menu slide ------------------>>>>>>>>
+
 const mobileNav = document.querySelector('.mnav');
 const closeBtn = document.querySelector('.mnav__close-btn');
 const closeBtnIcn = document.querySelector('.mnav__close-btn-icon');
@@ -15,14 +28,25 @@ closeBtn.addEventListener('click',() =>{
         closeBtnIcn.classList.toggle(arrowRightClass);
     }
 });
-const swiper = Swiper('.swiper', {
-    loop:true,
 
+// config swiper ------------------>>>>>>>>
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween:1,
     pagination: {
-        el: '.swiper-pagination',
-        clickable:true,
+      el: ".swiper-pagination",
+      clickable: true,
     },
-})
+    centeredSlides: false,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction:false,
+    }
+  });
+  
+
+
 
 
 
